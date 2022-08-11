@@ -1,0 +1,28 @@
+.blogs-main-new {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+}
+
+.blogs-news-img-container  {
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+.blogs-news-info-container {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.blogs-posts-container .post-container{
+    max-width: 35%;
+}
+
+.proyects-main-container{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.profile-main-container .profile-container{
+    display: block;
+}
